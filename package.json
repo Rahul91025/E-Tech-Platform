@@ -1,0 +1,34 @@
+{
+  "name": "learn-mama-backend",
+  "version": "1.0.0",
+  "description": "Backend for Learn Mama - Test Series & Resource Platform",
+  "main": "src/server.js",
+  "scripts": {
+    "dev": "nodemon src/server.js",
+    "start": "node src/server.js",
+    "test": "jest"
+  },
+  "dependencies": {
+    "@noble/hashes": "^2.0.1",
+    "bcrypt": "^5.1.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.1",
+    "express": "^4.19.2",
+    "express-rate-limit": "^7.3.0",
+    "joi": "^17.13.3",
+    "jsonwebtoken": "^9.0.2",
+    "mysql2": "^3.11.0",
+    "passport": "^0.7.0",
+    "passport-google-oauth20": "^2.0.0",
+    "razorpay": "^2.9.6",
+    "redis": "^4.6.13",
+    "sequelize": "^6.37.3",
+    "stripe": "^20.1.0",
+    "superagent": "^10.2.2"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "nodemon": "^3.1.4",
+    "supertest": "^7.1.4"
+  }
+}
